@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  text-align: center;
+  background-color: #fbbf24;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+textarea {
+  width: 60%;
+  height: 23vh;
+  padding: 2rem 2rem;
+  margin: 2rem auto;
+  display: block;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.btn-translate {
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  margin: 1rem 2rem;
+  padding: 10px 35px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s all;
+  outline: none;
+}
+.btn-translate:hover {
+  background-color: #fbbf24;
+  color: #000;
+  border: 1px solid #3b3b3b;
+}
+
+.clear {
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  margin: 1rem 2rem;
+  padding: 10px 35px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s all;
+  outline: none;
+}
+.clear:hover {
+  background-color: #fbbf24;
+  color: #000;
+  border: 1px solid #3b3b3b;
+}
+
+.output {
+  width: 60%;
+  height: 23vh;
+  padding: 2rem 2rem;
+  margin: 2rem auto;
+  display: block;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
